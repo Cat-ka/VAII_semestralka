@@ -1,0 +1,62 @@
+body {
+    background-image: url("obrazky/uvod.jpg");
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    height: 100vh;
+
+}
+
+#logo {
+    background-image: url("obrazky/logo_ovalne_velke_hore.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    width: 250px;
+    border-radius: 50%;
+    position: fixed;
+    top: 20%;
+    right: 50%;
+    transform: translate(50%);
+}
+@font-face {
+    font-family: ArchitectsDaughter;
+    src: url("ArchitectsDaughter-Regular.ttf");
+}
+p{
+    font-family: ArchitectsDaughter;
+    color: white;
+    text-shadow: 2px 2px 9px #491026;
+    font-size: 6vh;
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%);
+}
+
+
+
+.buttonEnter {
+    /*button sa mi pri načítaní stránky posunie dole, to nechcem,
+    chcem aby to už pri otváraní stránky bol
+     */
+    background-color: #83193566;
+    color:white;
+    padding: 0.2rem 1.2rem;
+    height: 36px;
+    transition-duration:0.5s;
+    border-radius: 8px;
+    font-weight: 650;
+    position: absolute;
+    top: 67%;
+    right: 50%;
+    transform: translate(50%);
+    text-shadow: 2px 2px 8px #730e35;
+}
+
+.buttonEnter:hover {
+    background-color: #5a0e1f;
+    color: white;
+}
