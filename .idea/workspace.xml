@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="2. commit">
+    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="uvodna stranka hotova">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvodna_stranka.html" beforeDir="false" afterPath="$PROJECT_DIR$/uvodna_stranka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uvodna_stranka.css" beforeDir="false" afterPath="$PROJECT_DIR$/uvodna_stranka.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <workItem from="1602687003682" duration="736000" />
       <workItem from="1602688108589" duration="1134000" />
       <workItem from="1602786795764" duration="8514000" />
-      <workItem from="1602847196797" duration="10806000" />
+      <workItem from="1602847196797" duration="12486000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1602687160600</created>
@@ -88,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602687555409</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="uvodna stranka hotova">
+      <created>1602862341699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602862341699</updated>
+    </task>
+    <task id="LOCAL-00004" summary="uvodna stranka hotova">
+      <created>1602863053536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602863053536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +122,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. commit" />
     <MESSAGE value="2. commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. commit" />
+    <MESSAGE value="uvodna stranka hotova" />
+    <option name="LAST_COMMIT_MESSAGE" value="uvodna stranka hotova" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602856652906">
@@ -129,9 +143,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687690844" />
-    <state x="297" y="121" key="Vcs.Push.Dialog.v2" timestamp="1602687716917">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1574" y="121" key="Vcs.Push.Dialog.v2" timestamp="1602863076575">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
+    <state x="1574" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602863076575" />
     <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687716917" />
   </component>
 </project>
