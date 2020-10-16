@@ -1,2 +1,2 @@
-#poznamky k semestrálnej práci
+#Poznámky k semestrálnej práci
 
