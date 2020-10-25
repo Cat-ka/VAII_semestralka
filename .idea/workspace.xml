@@ -12,7 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="uvodna stranka hotova">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obrazky/uvod.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/obrazky/uvod.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uvodna_stranka.css" beforeDir="false" afterPath="$PROJECT_DIR$/uvodna_stranka.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uvodna_stranka.html" beforeDir="false" afterPath="$PROJECT_DIR$/uvodna_stranka.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -40,6 +44,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1isCa6oaqMb9iir5eH3OwMRYmUv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -71,7 +76,14 @@
       <workItem from="1602687003682" duration="736000" />
       <workItem from="1602688108589" duration="1134000" />
       <workItem from="1602786795764" duration="8514000" />
-      <workItem from="1602847196797" duration="12486000" />
+      <workItem from="1602847196797" duration="13592000" />
+      <workItem from="1602929210867" duration="4620000" />
+      <workItem from="1602943901819" duration="6207000" />
+      <workItem from="1603018314277" duration="13781000" />
+      <workItem from="1603207088806" duration="2942000" />
+      <workItem from="1603307579275" duration="6903000" />
+      <workItem from="1603621744651" duration="9915000" />
+      <workItem from="1603647122997" duration="4978000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1602687160600</created>
@@ -101,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602863053536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="uvodna stranka hotova">
+      <created>1602881421356</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602881421356</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +150,10 @@
     </state>
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1602856652906" />
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687404005" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603627951541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603627951541" />
     <state x="458" y="209" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602793538537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -143,10 +166,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687690844" />
-    <state x="1574" y="121" key="Vcs.Push.Dialog.v2" timestamp="1602863076575">
-      <screen x="1366" y="0" width="1024" height="728" />
+    <state x="1626" y="164" key="Vcs.Push.Dialog.v2" timestamp="1602881439525">
+      <screen x="1366" y="0" width="1280" height="984" />
     </state>
     <state x="1574" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602863076575" />
     <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687716917" />
+    <state x="1626" y="164" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1602881439525" />
   </component>
 </project>

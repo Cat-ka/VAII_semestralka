@@ -1,23 +1,24 @@
 body {
     background-image: url("obrazky/uvod.jpg");
     background-repeat: no-repeat;
-    background-origin: border-box;
     background-size: cover;
-    background-color: hsla(0,0%,100%,0.30);
-    background-blend-mode: overlay;
+    margin: 0px;
     height: 100vh;
+    width: 100vw;
 
 }
 
-#logo {
-    background-image: url("obrazky/logo_ovalne_velke_hore.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 110px;
+img {
+    /*background-image: url("obrazky/logo_ovalne_velke_hore.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
     width: 250px;
+    height: 110px;
+    /*width: 22vw;*/
+    /*height: 18vh;*/
     border-radius: 50%;
-    position: fixed;
-    top: 20%;
+    position: absolute;
+    top: 150px;
     right: 50%;
     transform: translate(50%);
 }
@@ -30,10 +31,9 @@ p{
     color: white;
     text-shadow: 2px 2px 9px #491026;
     font-size: 6vh;
-    position: absolute;
-    top: 40%;
-    right: 50%;
-    transform: translate(50%);
+    position: relative;
+    top: 280px;
+    text-align: center;
 }
 
 
@@ -50,7 +50,7 @@ p{
     border-radius: 8px;
     font-weight: bolder;
     position: absolute;
-    top: 67%;
+    top: 302px;
     right: 50%;
     transform: translate(50%);
     text-shadow: 2px 2px 8px #730e35;
