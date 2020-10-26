@@ -10,13 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="uvodna stranka hotova">
+    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="kontakt zvalidovaný (index)">
+      <change beforePath="$PROJECT_DIR$/.idea/VAII_semestralka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VAII_semestralka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/uvod.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/obrazky/uvod.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvodna_stranka.css" beforeDir="false" afterPath="$PROJECT_DIR$/uvodna_stranka.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvodna_stranka.html" beforeDir="false" afterPath="$PROJECT_DIR$/uvodna_stranka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -55,13 +53,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/obrazky" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Škola\7.semester\VAII\VAII_semestralka\obrazky" />
+      <recent name="D:\Škola\7.semester\VAII\VAII_semestralka\kontakt\images" />
       <recent name="D:\Škola\7.semester\VAII\VAII_semestralka" />
     </key>
   </component>
@@ -83,7 +83,8 @@
       <workItem from="1603207088806" duration="2942000" />
       <workItem from="1603307579275" duration="6903000" />
       <workItem from="1603621744651" duration="9915000" />
-      <workItem from="1603647122997" duration="4978000" />
+      <workItem from="1603647122997" duration="6899000" />
+      <workItem from="1603718038548" duration="16242000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1602687160600</created>
@@ -120,11 +121,49 @@
       <option name="project" value="LOCAL" />
       <updated>1602881421356</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="home">
+      <created>1603669033110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603669033111</updated>
+    </task>
+    <task id="LOCAL-00007" summary="home">
+      <created>1603669239870</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603669239870</updated>
+    </task>
+    <task id="LOCAL-00008" summary="uvodna stranka zvalidovana">
+      <created>1603747798030</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603747798053</updated>
+    </task>
+    <task id="LOCAL-00009" summary="kontakt zvalidovaný (index)">
+      <created>1603749008094</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603749008094</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -142,7 +181,10 @@
     <MESSAGE value="1. commit" />
     <MESSAGE value="2. commit" />
     <MESSAGE value="uvodna stranka hotova" />
-    <option name="LAST_COMMIT_MESSAGE" value="uvodna stranka hotova" />
+    <MESSAGE value="home" />
+    <MESSAGE value="uvodna stranka zvalidovana" />
+    <MESSAGE value="kontakt zvalidovaný (index)" />
+    <option name="LAST_COMMIT_MESSAGE" value="kontakt zvalidovaný (index)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602856652906">
@@ -150,10 +192,10 @@
     </state>
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1602856652906" />
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687404005" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603627951541">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603745299421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603627951541" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603745299421" />
     <state x="458" y="209" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602793538537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -166,11 +208,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687690844" />
-    <state x="1626" y="164" key="Vcs.Push.Dialog.v2" timestamp="1602881439525">
-      <screen x="1366" y="0" width="1280" height="984" />
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1603749025330">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603749025330" />
     <state x="1574" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602863076575" />
     <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687716917" />
     <state x="1626" y="164" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1602881439525" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603738597561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603738597561" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603739716508">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603739716508" />
   </component>
 </project>

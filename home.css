@@ -1,27 +1,32 @@
-/*nav.navbar .navbar-expand-lg .navbar-light .bg-light {*/
-/*    width: 40px;*/
-/*    height: 40px;*/
-/*}*/
-@font-face {
-    font-family: ArchitectsDaughter;
-    src: url("ArchitectsDaughter-Regular.ttf");
-}
 
 body {
     font-family: ArchitectsDaughter;
     font-weight: bold;
 }
 
+@font-face {
+    font-family: ArchitectsDaughter;
+    src: url("ArchitectsDaughter-Regular.ttf");
+}
+
 a {
     font-size: 16px;
+    font-family: ArchitectsDaughter;
 }
 
 .navbar-brand>img {
+    width: 91px;
+    height: 40px;
     border-radius: 50%;
 }
 
-ul.nav.navbar-nav.navbar-right {
-    padding-top: 5px;
+div.nav.navbar-nav.navbar-right {
+    background: url("obrazky/facebook_logo.png");
+    background-size: cover;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -39,13 +44,13 @@ a.navbar-brand {
 }
 
 .container-fluid {
-    width:available;
+    width: auto;
 }
 
 .container-fluid {
-/*background-color: #f8c5c5;*/
     background-image: linear-gradient(-90deg, #fffeff, #be3b59);
 }
+
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: black;
 }
@@ -61,10 +66,6 @@ a.navbar-brand {
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border : 0px;
 }
-/*.navbar {*/
-/*    margin-bottom: 0;*/
-/*    border-radius: 0;*/
-/*}*/
 
 /* Add a gray background color and some padding to the footer */
 footer {
@@ -84,3 +85,4 @@ footer {
         display: none;
     }
 }
+
