@@ -10,11 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="kontakt zvalidovaný (index)">
-      <change beforePath="$PROJECT_DIR$/.idea/VAII_semestralka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VAII_semestralka.iml" afterDir="false" />
+    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="home zvalidovaný (index)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -84,7 +84,8 @@
       <workItem from="1603307579275" duration="6903000" />
       <workItem from="1603621744651" duration="9915000" />
       <workItem from="1603647122997" duration="6899000" />
-      <workItem from="1603718038548" duration="16242000" />
+      <workItem from="1603718038548" duration="22931000" />
+      <workItem from="1603797211048" duration="4776000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1602687160600</created>
@@ -149,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603749008094</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="home zvalidovaný (index)">
+      <created>1603749760151</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603749760151</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +192,8 @@
     <MESSAGE value="home" />
     <MESSAGE value="uvodna stranka zvalidovana" />
     <MESSAGE value="kontakt zvalidovaný (index)" />
-    <option name="LAST_COMMIT_MESSAGE" value="kontakt zvalidovaný (index)" />
+    <MESSAGE value="home zvalidovaný (index)" />
+    <option name="LAST_COMMIT_MESSAGE" value="home zvalidovaný (index)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602856652906">
@@ -208,10 +217,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687690844" />
-    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1603749025330">
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1603749816275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603749025330" />
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603749816275" />
     <state x="1574" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602863076575" />
     <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687716917" />
     <state x="1626" y="164" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1602881439525" />

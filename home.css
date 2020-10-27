@@ -4,6 +4,10 @@ body {
     font-weight: bold;
 }
 
+.navbar {
+    border: 0px;
+}
+
 @font-face {
     font-family: ArchitectsDaughter;
     src: url("ArchitectsDaughter-Regular.ttf");
@@ -78,6 +82,10 @@ footer {
     margin: auto;
     min-height: 200px;
 }
+
+/*.navbar {*/
+/*    border: 0px;*/
+/*}*/
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
