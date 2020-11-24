@@ -1,6 +1,6 @@
 
 body {
-    font-family: ArchitectsDaughter;
+    font-family: Poppins-Regular;
     font-weight: bold;
 }
 
@@ -8,14 +8,16 @@ body {
     border: 0px;
 }
 
+
 @font-face {
-    font-family: ArchitectsDaughter;
-    src: url("ArchitectsDaughter-Regular.ttf");
+    font-family: Poppins-Regular;
+    src: url("Poppins/Poppins-Light.ttf");
 }
+
 
 a {
     font-size: 16px;
-    font-family: ArchitectsDaughter;
+    font-family: Poppins-Regular;
 }
 
 .navbar-brand>img {

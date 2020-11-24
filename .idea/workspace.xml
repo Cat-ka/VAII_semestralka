@@ -10,8 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="home, kontakt, galeria upravené, zvalidované">
+    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="doplnenie &lt;u&gt;&lt;/u&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/galeria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uvodna_stranka.css" beforeDir="false" afterPath="$PROJECT_DIR$/uvodna_stranka.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="21f8648a-0336-4999-9e2f-a8ea3f233630" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1isCa6oaqMb9iir5eH3OwMRYmUv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,10 +57,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/obrazky" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -82,7 +93,13 @@
       <workItem from="1603621744651" duration="9915000" />
       <workItem from="1603647122997" duration="6899000" />
       <workItem from="1603718038548" duration="22931000" />
-      <workItem from="1603797211048" duration="7739000" />
+      <workItem from="1603797211048" duration="9331000" />
+      <workItem from="1603818851663" duration="470000" />
+      <workItem from="1605025082322" duration="516000" />
+      <workItem from="1605130502911" duration="518000" />
+      <workItem from="1605546317924" duration="790000" />
+      <workItem from="1606045992531" duration="16899000" />
+      <workItem from="1606206890304" duration="4382000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1602687160600</created>
@@ -168,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603811243438</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="doplnenie &lt;u&gt;&lt;/u&gt;">
+      <created>1603811994026</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603811994026</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,9 +229,18 @@
     <MESSAGE value="kontakt zvalidovaný (index)" />
     <MESSAGE value="home zvalidovaný (index)" />
     <MESSAGE value="home, kontakt, galeria upravené, zvalidované" />
-    <option name="LAST_COMMIT_MESSAGE" value="home, kontakt, galeria upravené, zvalidované" />
+    <MESSAGE value="doplnenie &lt;u&gt;&lt;/u&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="doplnenie &lt;u&gt;&lt;/u&gt;" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="6" key="#PHP" timestamp="1606047660743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="6" key="#PHP/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1606047660743" />
+    <state x="1470" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606085680062">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1470" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606085680062" />
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602856652906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -222,29 +255,90 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="458" y="209" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602793538536" />
-    <state x="485" y="143" key="FileChooserDialogImpl" timestamp="1602688222666">
+    <state x="485" y="143" key="FileChooserDialogImpl" timestamp="1605547299245">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="485" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602688222666" />
+    <state x="485" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605547299245" />
+    <state width="981" height="222" key="GridCell.Tab.0.bottom" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
+    <state width="981" height="222" key="GridCell.Tab.0.center" timestamp="1606086419352">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419352" />
+    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032680" />
+    <state width="981" height="222" key="GridCell.Tab.0.left" timestamp="1606086419352">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419352" />
+    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032680" />
+    <state width="981" height="222" key="GridCell.Tab.0.right" timestamp="1606086419352">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419352" />
+    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
+    <state width="981" height="222" key="GridCell.Tab.1.bottom" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
+    <state width="981" height="222" key="GridCell.Tab.1.center" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
+    <state width="981" height="222" key="GridCell.Tab.1.left" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
+    <state width="981" height="222" key="GridCell.Tab.1.right" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
+    <state width="981" height="222" key="GridCell.Tab.2.bottom" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.2.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.2.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032682" />
+    <state width="981" height="222" key="GridCell.Tab.2.center" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.2.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.2.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032682" />
+    <state width="981" height="222" key="GridCell.Tab.2.left" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.2.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.2.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032682" />
+    <state width="981" height="222" key="GridCell.Tab.2.right" timestamp="1606086419357">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state width="981" height="222" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
+    <state width="1323" height="222" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032682" />
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog" timestamp="1602687690844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687690844" />
-    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1603811252569">
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1603811998721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603749816275" />
     <state x="1574" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602863076575" />
     <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687716917" />
     <state x="1626" y="164" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1602881439525" />
-    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603811252569" />
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603811998721" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603738597561">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603738597561" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603739716508">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1625" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606079605763">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603739716508" />
+    <state x="1625" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606079605763" />
   </component>
 </project>

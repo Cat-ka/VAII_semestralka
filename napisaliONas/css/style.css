@@ -1,0 +1,28 @@
+.btn-danger {
+    color: #060606;
+    background-color: #e6647a;
+    border-color: #d43f3a;
+}
+
+.form-control:focus {
+    border-color: #981520;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(233, 102, 100);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #d4233f;
+    border-color: #d4233f;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #902828;
+    border-color: #122b40;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #902828;
+    border-color: #902828;
+}

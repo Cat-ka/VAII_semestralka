@@ -22,12 +22,16 @@ img {
     right: 50%;
     transform: translate(50%);
 }
+
+/**
 @font-face {
     font-family: ArchitectsDaughter;
     src: url("ArchitectsDaughter-Regular.ttf");
 }
+ */
+
 p{
-    font-family: ArchitectsDaughter;
+    font-family: Poppins-Regular;
     color: white;
     text-shadow: 2px 2px 9px #491026;
     font-size: 6vh;
