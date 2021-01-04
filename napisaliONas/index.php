@@ -6,19 +6,15 @@ require ('config/db.php');
 
 //vytvor query
 $query = 'SELECT * FROM posts ORDER BY created_at DESC';
-
 $result = mysqli_query($conn, $query);
-
 $posts = mysqli_fetch_all($result, MYSQLI_ASSOC);
 //var_dump($posts);
-
 mysqli_free_result($result);
-
 mysqli_close($conn);
 ?>
 
 
-<?php include ('inc/header.php'); ?>
+<?php include('../Views/header.php'); ?>
 <?php
     if (isset($_SESSION['message'])): ?>
     <div class="alert alert-<?=$_SESSION['msg_type']?>">
@@ -42,4 +38,4 @@ mysqli_close($conn);
             </div>
         <?php endforeach; ?>
     </div>
-<?php include ('inc/footer.php'); ?>
+<?php include('../Views/footer.php'); ?>

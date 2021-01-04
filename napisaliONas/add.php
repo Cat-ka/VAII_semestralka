@@ -23,7 +23,8 @@ if(isset($_POST['submit'])) {
 }
 
 ?>
-<?php include ('inc/header.php'); ?>
+
+<?php include('../Views/header.php'); ?>
     <div class="container">
         <h1>Pridaj príspevok</h1>
         <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
@@ -45,4 +46,4 @@ if(isset($_POST['submit'])) {
             <input type="submit" name="submit" value="Submit" class="btn btn-primary">
         </form>
     </div>
-<?php include ('inc/footer.php'); ?><?php
+<?php include('../Views/footer.php'); ?><?php

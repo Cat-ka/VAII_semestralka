@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../home.css">
-    <link rel="stylesheet" type="text/css" href="../napisaliONas/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../Views/home.css">
+    <link rel="stylesheet" type="text/css" href="../Views/css/style.css">
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -25,11 +25,11 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href="../home.html">Domov</a></li>
+                <li><a href="../Views/home.html">Domov</a></li>
                 <li><a href="#">Ponuka služieb</a></li>
                 <li><a href="#">Cenník</a></li>
-                <li><a href="../galeria.html">Fotogaléria</a></li>
-                <li class="active"><a href="napisaliONas/index.php">Napisali o nás</a></li>
+                <li><a href="../Views/galeria.html">Fotogaléria</a></li>
+                <li class="active"><a href="../napisaliONas/index.php">Napisali o nás</a></li>
             </ul>
             <div class="nav navbar-nav navbar-right"><a href="https://www.facebook.com/bodystyle.centra/"></a>
             </div>

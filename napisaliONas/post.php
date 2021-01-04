@@ -31,7 +31,8 @@ mysqli_free_result($result);
 mysqli_close($conn);
 
 ?>
-<?php include ('inc/header.php'); ?>
+
+<?php include('../Views/header.php'); ?>
 <div class="container">
     <h1><?php echo $post['title']; ?></h1>
     <small>Created on <?php echo $post['created_at']; ?> by
