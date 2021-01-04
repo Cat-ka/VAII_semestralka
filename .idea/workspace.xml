@@ -10,24 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="CRUD operácie">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98dbcce3-3ed4-4708-941f-fd1f1e23bad0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98dbcce3-3ed4-4708-941f-fd1f1e23bad0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/galeria.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/galeria.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/napisaliONas/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/napisaliONas/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/napisaliONas/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/napisaliONas/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvodna_stranka.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/uvodna_stranka.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvodna_stranka.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/uvodna_stranka.html" afterDir="false" />
-    </list>
+    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="zmena adresarov" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projekty_v_phpstorm/mvc" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -116,7 +99,7 @@
       <workItem from="1606206890304" duration="4382000" />
       <workItem from="1606234437402" duration="2881000" />
       <workItem from="1606838904210" duration="158000" />
-      <workItem from="1609769400769" duration="11366000" />
+      <workItem from="1609769400769" duration="12323000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1602687160600</created>
@@ -216,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606234724552</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="zmena adresarov">
+      <created>1609784442241</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609784442242</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +245,8 @@
     <MESSAGE value="home, kontakt, galeria upravené, zvalidované" />
     <MESSAGE value="doplnenie &lt;u&gt;&lt;/u&gt;" />
     <MESSAGE value="CRUD operácie" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD operácie" />
+    <MESSAGE value="zmena adresarov" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmena adresarov" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1606047660743">
@@ -281,10 +272,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="458" y="209" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602793538536" />
-    <state x="485" y="143" key="FileChooserDialogImpl" timestamp="1606839104068">
+    <state x="485" y="143" key="FileChooserDialogImpl" timestamp="1609785844530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="485" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1606839104068" />
+    <state x="485" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1609785844530" />
     <state x="485" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605547299245" />
     <state width="1323" height="91" key="GridCell.Tab.0.bottom" timestamp="1609784048937">
       <screen x="0" y="0" width="1366" height="728" />
@@ -362,10 +353,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687690844" />
-    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1606234744083">
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1609785861983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1606234744083" />
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1609785861983" />
     <state x="1574" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602863076575" />
     <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687716917" />
     <state x="1626" y="164" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1602881439525" />
