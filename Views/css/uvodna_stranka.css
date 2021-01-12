@@ -1,5 +1,5 @@
 body {
-    background-image: url("../obrazky/uvod.jpg");
+    background-image: url("../../obrazky/uvod.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
@@ -63,4 +63,21 @@ p{
 .buttonEnter:hover {
     background-color: #5a0e1f;
     color: white;
+}
+
+ul.nav.justify-content-center {
+    font-weight: bolder;
+    position: absolute;
+    top: 440px;
+    right: 50%;
+    transform: translate(50%);
+    text-shadow: 2px 2px 8px #730e35;
+}
+
+a {
+    color: #8b153c;
+}
+
+a:hover {
+    color: #64123b;
 }

@@ -14,7 +14,7 @@ if(isset($_POST['delete'])) {
     header('location: post.php');
 
     if(mysqli_query($conn, $query)) {
-        header('Location: ' .ROOT_URL. '');
+        header('Location: ' .INDEX_URL. '');
     } else {
         echo 'ERROR: ' .mysqli_error($conn);
     }
@@ -56,7 +56,7 @@ mysqli_close($conn);
         <input type="hidden" name="delete_id" value="<?php echo $post['id']; ?>">
         <input type="submit" name="delete" value="Delete" class="btn btn-danger" style="font-weight:bold;">
     </form>
-    <a href="<?php echo ROOT_URL; ?>" class="btn btn-default" style="font-weight:bold;">Späť</a>
+    <a href="<?php echo INDEX_URL; ?>" class="btn btn-default" style="font-weight:bold;">Späť</a>
     <a href="<?php echo ROOT_URL; ?>edit.php?id=<?php echo $post['id']; ?>" class="btn btn-default" style="font-weight:bold;">Editovať</a>
 
 </div>

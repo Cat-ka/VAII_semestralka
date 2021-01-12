@@ -16,7 +16,7 @@ if(isset($_POST['submit'])) {
     header('location: post.php');
 
     if(mysqli_query($conn, $query)) {
-        header('Location: ' .ROOT_URL. '');
+        header('Location: ' .INDEX_URL. '');
     } else {
         echo 'ERROR: ' .mysqli_error($conn);
     }
@@ -46,4 +46,5 @@ if(isset($_POST['submit'])) {
             <input type="submit" name="submit" value="Submit" class="btn btn-primary">
         </form>
     </div>
-<?php include('../Views/footer.php'); ?><?php
+</body>
+</html>

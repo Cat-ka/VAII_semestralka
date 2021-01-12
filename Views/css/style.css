@@ -26,3 +26,13 @@
     background-color: #902828;
     border-color: #902828;
 }
+
+.btn-default:hover {
+    background-color: #e8a0c8 !important;
+    border-color: #a13358 !important;
+}
+
+.a {
+    font-size: 14px;
+}
+
