@@ -1,5 +1,5 @@
 
-<?php include('../Views/header.php'); ?>
+<?php include('header.php'); ?>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -11,7 +11,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="../obrazky/carousel_11.jpg" alt="Image">
+            <img src="obrazky/carousel_11.jpg" alt="Image">
             <div class="carousel-caption">
                 <h3>Prístrojové ošetrenie pleti</h3>
                 <p>aby Vaša pleť vyzerala mlado</p>
@@ -19,12 +19,12 @@
         </div>
 
         <div class="item">
-            <img src="../obrazky/carousel_2.jpg" alt="Dermalogica">
+            <img src="obrazky/carousel_2.jpg" alt="Dermalogica">
             <div class="carousel-caption">
             </div>
         </div>
         <div class="item">
-            <img src="../obrazky/carousel_3.jpg" alt="Logo Bodystyle">
+            <img src="obrazky/carousel_3.jpg" alt="Logo Bodystyle">
             <div class="carousel-caption">
             </div>
         </div>
@@ -44,11 +44,11 @@
     <h3>Chvíľa, keď sa Vaša pleť navždy zmenila.</h3><br>
     <div class="row">
         <div class="col-sm-4">
-            <img src="../obrazky/fibroblast_1.jpg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="obrazky/fibroblast_1.jpg" class="img-responsive" style="width:100%" alt="Image">
             <p>Plastická operácie bez chirurgického zákroku.</p>
         </div>
         <div class="col-sm-4">
-            <img src="../obrazky/ipl.jpg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="obrazky/ipl.jpg" class="img-responsive" style="width:100%" alt="Image">
             <p>Intenzívne pulzné svetlo (IPL)</p>
         </div>
         <div class="col-sm-4">
@@ -62,4 +62,4 @@
         </div>
     </div>
 </div>
-<?php include('../Views/footer.php'); ?>
+<?php include('footer.php'); ?>

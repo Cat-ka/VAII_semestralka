@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="posts" />
+            <name qname="salon" />
           </node>
         </introspection-scope>
       </schema-mapping>

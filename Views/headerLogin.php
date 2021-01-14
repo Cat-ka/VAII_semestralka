@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Bodystyle</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="Icon" type="text/css" href="../obrazky/male_logo.jpg">
+    <link rel="Icon" type="text/css" href="obrazky/male_logo.jpg">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -22,16 +23,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><img src="../obrazky/logo_ovalne_velke_hore.jpg" alt="Bodystyle Logo">
+            <a class="navbar-brand"><img src="obrazky/logo_ovalne_velke_hore.jpg" alt="Bodystyle Logo">
             </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="../Views/home.php">Domov</a></li>
+                <li><a href="home.php">Domov</a></li>
                 <li><a href="#">Ponuka služieb</a></li>
                 <li><a href="#">Cenník</a></li>
                 <li><a href="../Views/galeria.php">Fotogaléria</a></li>
-                <li><a href="../napisaliONas/indexNapisali.php">Napisali o nás</a></li>
+                <li><a href="../Controller/indexNapisali.php">Napisali o nás</a></li>
             </ul>
             <div class="nav navbar-nav navbar-right"><a href="https://www.facebook.com/bodystyle.centra/"></a>
             </div>
