@@ -6,9 +6,9 @@
     <title>Bodystyle</title>
     <link rel="Icon" type="image/jpg" href="obrazky/male_logo.jpg">
     <!--    CSS-->
-    <link rel="stylesheet" href="../bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
     <script src="jquery.js"></script>
-    <script src="../bootstrap-4.5.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="../public/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="css/uvodna_stranka.css">
 </head>
 <body>

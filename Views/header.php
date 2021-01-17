@@ -1,3 +1,10 @@
+<?php
+if(!isset($_SESSION))
+{
+    session_start();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +16,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
     <link rel="stylesheet" type="text/css" href="../Views/css/home.css">
     <link rel="stylesheet" type="text/css" href="../Views/css/style.css">
 </head>
@@ -36,8 +42,16 @@
             <div class="nav navbar-nav navbar-right"><a href="https://www.facebook.com/bodystyle.centra/"></a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" data-toggle="modal" data-target="#login">Prihlásenie</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#signup" >Registrácia</a></li>
+                <?php
+                if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true): ?>
+                    <li><a href="#" data-toggle="modal" data-target="#change-password">Zmeň heslo</a></li>
+                    <li><a href="../Controller/includes/logout.php">Odhlásenie</a></li>
+                <?php else: ?>
+                    <li ><a href='#' data-toggle='modal' data-target='#login'>Prihlásenie</a ></li >
+                    <li ><a href='#' data-toggle='modal' data-target='#signup'>Registrácia</a ></li >
+                <?php endif; ?>
+                <!--                <li><a href="#" data-toggle="modal" data-target="#login">Prihlásenie</a></li>-->
+                <!--                <li><a href="#" data-toggle="modal" data-target="#signup">Registrácia</a></li>-->
             </ul>
 
         </div>
@@ -45,24 +59,25 @@
 </nav>
 
 <!-- Login box -->
-<div class="modal fade my-modal" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade my-modal" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">Prihlásenie</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">
+                        &times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Prihlásenie</h4>
             </div>
             <div class="modal-body">
                 <form class="form" method="post" action="../Controller/includes/auth.php">
                     <div class="form-group">
                         <label for="exampleInputEmail1">E-mail</label>
-                        <input type="email" class="form-control" name="email" id="exampleInputEmail1" placeholder="E-mail">
+                        <input type="email" class="form-control" name="email" id="exampleInputEmail1"
+                               placeholder="E-mail">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Heslo</label>
-                        <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Heslo">
+                        <input type="password" class="form-control" name="password" id="exampleInputPassword1"
+                               placeholder="Heslo">
                     </div>
                     <div class="checkbox">
                         <label>
@@ -84,7 +99,8 @@
 <!-- /Login box -->
 
 <!-- Signup box -->
-<div class="modal fade my-modal" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade my-modal" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -97,19 +113,23 @@
                 <form class="form" method="post" action="../Controller/includes/signup.php">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Celé meno</label>
-                        <input type="text" class="form-control" name="name" id="exampleInputEmail1" placeholder="Zadajte celé meno">
+                        <input type="text" class="form-control" name="name" id="exampleInputEmail1"
+                               placeholder="Zadajte celé meno">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">E-mail</label>
-                        <input type="email" class="form-control" name="email" id="exampleInputEmail1" placeholder="Zadajte e-mail">
+                        <input type="email" class="form-control" name="email" id="exampleInputEmail1"
+                               placeholder="Zadajte e-mail">
                     </div>
                     <div class="form-group">
                         <label fo r="exampleInputPassword1">Heslo</label>
-                        <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Zadajte heslo">
+                        <input type="password" class="form-control" name="password" id="exampleInputPassword1"
+                               placeholder="Zadajte heslo">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Zopakujte heslo</label>
-                        <input type="password" class="form-control" name="cpassword" id="exampleInputPassword2" placeholder="Zopakujte heslo">
+                        <input type="password" class="form-control" name="cpassword" id="exampleInputPassword2"
+                               placeholder="Zopakujte heslo">
                     </div>
 
                     <button type="submit" class="btn btn-default">Registrácia</button>
@@ -123,7 +143,8 @@
 <!-- /Signup box -->
 
 <!-- Reset password box -->
-<div class="modal fade my-modal" id="send-password-link" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade my-modal" id="send-password-link" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -147,3 +168,8 @@
     </div>
 </div>
 <!-- /Reset password box -->
+
+
+<script src="../public/js/jquery.min.js"></script>
+<script src="../public/js/bootstrap.min.js"></script>
+<script src="../public/js/script.js"></script>

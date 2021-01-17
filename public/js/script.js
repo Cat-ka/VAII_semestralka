@@ -1,3 +1,5 @@
+
+
 $(function () {
 
     $('.form').on('submit', function (e) {
@@ -7,13 +9,13 @@ $(function () {
 
         submitForm($form);
     });
-});
+})
 
 function submitForm($form) {
 
     $footer = $form.parent('.modal-body').next('.modal-footer');
 
-    $footer.html('<img src="Views/obrazky/ajax-loader.gif"');
+    $footer.html('<img src="ajax-loader.gif">');
 
     $.ajax({
         url: $form.attr('action'),
@@ -21,13 +23,12 @@ function submitForm($form) {
         data: $form.serialize(),
         success: function (response) {
             response = $.parseJSON(response);
-
             if (response.success) {
                 if (!response.signout) {
                     setTimeout(function () {
                         $footer.html(response.message);
                         window.location = response.url;
-                    }, 5000);
+                    }, 3000);
                 }
                 $footer.html(response.message);
             } else if (response.error) {

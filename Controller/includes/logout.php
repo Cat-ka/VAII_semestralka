@@ -1,5 +1,5 @@
 <?php
-require_once 'includes/init.php';
+require_once '../includes/init.php';
 
 if (isset($_SESSION['logged_in'])){
 
@@ -12,8 +12,12 @@ if (isset($_SESSION['logged_in'])){
     //vymazanie cookie
     session_destroy();
 
-    header('location: headerLogin.php');
+    header('location: ../../Views/home.php');
+
+//    die("<meta http-equiv='refresh' content='0;url=login.php'>");
+
 }
 else{
-    header('location: home.php?error=Prosim, prihlaste sa Vasim kontom.');
+    header('location: ../../Views/home.php?error=Prosim, prihlaste sa Vasim kontom.');
 }
+

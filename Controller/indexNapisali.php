@@ -1,12 +1,17 @@
 <?php
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+}
 
 require ('config/config.php');
 require ('config/db.php');
 
 //vytvor query
 $query = 'SELECT * FROM posts ORDER BY created_at DESC';
-$result = mysqli_query($conn, $query);
+if (isset($conn)) {
+    $result = mysqli_query($conn, $query);
+}
 $posts = mysqli_fetch_all($result, MYSQLI_ASSOC);
 //var_dump($posts);
 mysqli_free_result($result);

@@ -10,201 +10,46 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="login, registrácia - view">
-      <change afterPath="$PROJECT_DIR$/Controller/functions/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/includes/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/includes/init.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="login, registrácia - controller">
+      <change afterPath="$PROJECT_DIR$/Views/js/navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/98dbcce3-3ed4-4708-941f-fd1f1e23bad0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98dbcce3-3ed4-4708-941f-fd1f1e23bad0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/OFL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-ExtraBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-ExtraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poppins/Poppins-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Poppins/Poppins-ThinItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/css/uvodna_stranka.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/uvodna_stranka.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/galeria.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/galeria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/includes/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/includes/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/indexNapisali.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/indexNapisali.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/signout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/includes/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/headerLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/headerLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/headerLogin.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/uvod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/css/util.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/montserrat/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/images/bg-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/images/bs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/images/facebook_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/facebook_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/images/icons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/images/img-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/images/logo_ovalne_velke_hore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/logo_ovalne_velke_hore.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/images/male_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/male_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/images/tattoo_preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/animsition/css/animsition.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/animsition/css/animsition.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/animsition/js/animsition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/animsition/js/animsition.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/js/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/countdowntime/countdowntime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/daterangepicker/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/daterangepicker/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/daterangepicker/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/select2/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt/vendor/select2/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/.idea/dataSources/004fe9c7-2510-423e-a5e6-90690b9c92cd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/.idea/dataSources/004fe9c7-2510-423e-a5e6-90690b9c92cd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/.idea/dataSources/004fe9c7-2510-423e-a5e6-90690b9c92cd/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/.idea/dataSources/004fe9c7-2510-423e-a5e6-90690b9c92cd/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/.idea/napisaliONas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/.idea/napisaliONas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/config/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/inc/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/inc/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/indexNapisali.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/indexNapisali.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/napisaliONas/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/bodystyle_galery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/bodystyle_galery.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/carousel_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/carousel_11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/carousel_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/carousel_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/carousel_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/carousel_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/dermalogica.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/dermalogica.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/facebook_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/fibroblast.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/fibroblast.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/fibroblast_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/fibroblast_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/geneo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/geneo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/image9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/image9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/ipl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/ipl.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/logo_ovalne_velke_hore.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/makeup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/makeup.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/male_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/permanent_makeup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/permanent_makeup.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/tattoo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/tattoo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/tattoo_preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/tattoo_preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obrazky/uvod.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Views/obrazky/uvod.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/uvod.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/uvod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +97,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../VAII_by_Mirec/semestralka" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -262,11 +109,11 @@
       <recent name="D:\Škola\7.semester\VAII\VAII_semestralka" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Škola\7.semester\VAII\php_mysql\www\VAII_semestralka\Controller\includes" />
+      <recent name="D:\Škola\7.semester\VAII\php_mysql\www\VAII_semestralka\public\js" />
+      <recent name="D:\Škola\7.semester\VAII\php_mysql\www\VAII_semestralka\public\css" />
+      <recent name="D:\Škola\7.semester\VAII\php_mysql\www\VAII_semestralka\Views\js" />
       <recent name="D:\Škola\7.semester\VAII\php_mysql\www\VAII_semestralka\Views" />
-      <recent name="D:\Škola\7.semester\VAII\php_mysql\www\VAII_semestralka" />
-      <recent name="D:\Škola\7.semester\VAII\VAII_semestralka\Controller\includes" />
-      <recent name="D:\Škola\7.semester\VAII\VAII_semestralka\Controller\functions" />
-      <recent name="D:\Škola\7.semester\VAII\VAII_semestralka\Views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -302,7 +149,9 @@
       <workItem from="1610471812192" duration="15663000" />
       <workItem from="1610526044242" duration="23539000" />
       <workItem from="1610623394075" duration="15682000" />
-      <workItem from="1610645021115" duration="7693000" />
+      <workItem from="1610645021115" duration="7894000" />
+      <workItem from="1610699390503" duration="9334000" />
+      <workItem from="1610794775556" duration="26633000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1602687160600</created>
@@ -423,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610494236271</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="login, registrácia - controller">
+      <created>1610655209485</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610655209485</updated>
+    </task>
+    <task id="LOCAL-00019" summary="login, registrácia - controller">
+      <created>1610655294455</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610655294455</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +327,8 @@
     <MESSAGE value="CRUD operácie" />
     <MESSAGE value="zmena adresarov" />
     <MESSAGE value="login, registrácia - view" />
-    <option name="LAST_COMMIT_MESSAGE" value="login, registrácia - view" />
+    <MESSAGE value="login, registrácia - controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="login, registrácia - controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1606047660743">
@@ -482,10 +346,10 @@
     </state>
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1602856652906" />
     <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687404005" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603808543791">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610819246510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603745299421" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610819246510" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603808543791" />
     <state x="458" y="209" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602793538537">
       <screen x="0" y="0" width="1366" height="728" />
@@ -496,54 +360,54 @@
     </state>
     <state x="485" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610649186742" />
     <state x="485" y="143" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605547299245" />
-    <state width="1323" height="270" key="GridCell.Tab.0.bottom" timestamp="1610645154581">
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1610844487336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610645154581" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610844487336" />
     <state width="981" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
-    <state width="1323" height="270" key="GridCell.Tab.0.center" timestamp="1610645154580">
+    <state width="1323" height="269" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610755357057" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1610844487336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610645154580" />
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610844487336" />
     <state width="981" height="222" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419352" />
-    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032680" />
-    <state width="1323" height="270" key="GridCell.Tab.0.left" timestamp="1610645154580">
+    <state width="1323" height="269" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610755357057" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1610844487336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610645154580" />
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610844487336" />
     <state width="981" height="222" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419352" />
-    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032680" />
-    <state width="1323" height="270" key="GridCell.Tab.0.right" timestamp="1610645154580">
+    <state width="1323" height="269" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610755357026" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1610844487336">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610645154580" />
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610844487336" />
     <state width="981" height="222" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419352" />
-    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
-    <state width="1323" height="270" key="GridCell.Tab.1.bottom" timestamp="1610645154581">
+    <state width="1323" height="269" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610755357057" />
+    <state width="1323" height="268" key="GridCell.Tab.1.bottom" timestamp="1610836355617">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610645154581" />
+    <state width="1323" height="268" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610836355617" />
     <state width="981" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
-    <state width="1323" height="270" key="GridCell.Tab.1.center" timestamp="1610645154581">
+    <state width="1323" height="269" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610755357057" />
+    <state width="1323" height="268" key="GridCell.Tab.1.center" timestamp="1610836355615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610645154581" />
+    <state width="1323" height="268" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610836355615" />
     <state width="981" height="222" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
-    <state width="1323" height="270" key="GridCell.Tab.1.left" timestamp="1610645154581">
+    <state width="1323" height="269" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610755357057" />
+    <state width="1323" height="268" key="GridCell.Tab.1.left" timestamp="1610836355615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610645154581" />
+    <state width="1323" height="268" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610836355615" />
     <state width="981" height="222" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
-    <state width="1323" height="270" key="GridCell.Tab.1.right" timestamp="1610645154581">
+    <state width="1323" height="269" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610755357057" />
+    <state width="1323" height="268" key="GridCell.Tab.1.right" timestamp="1610836355616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="270" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610645154581" />
+    <state width="1323" height="268" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610836355616" />
     <state width="981" height="222" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032681" />
+    <state width="1323" height="269" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610755357057" />
     <state width="1323" height="91" key="GridCell.Tab.2.bottom" timestamp="1609785915119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -568,14 +432,18 @@
     <state width="1323" height="91" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1609785915118" />
     <state width="981" height="222" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606086419357" />
     <state width="1323" height="222" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1605131032682" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1610710533382">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610710533382" />
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog" timestamp="1602687690844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687690844" />
-    <state x="297" y="121" key="Vcs.Push.Dialog.v2" timestamp="1610494280488">
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1610655296111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1609785886411" />
+    <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610655296111" />
     <state x="1574" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602863076575" />
     <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610494280488" />
     <state x="1626" y="164" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1602881439525" />
@@ -585,18 +453,22 @@
     </state>
     <state x="934" y="245" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610649501331" />
     <state x="934" y="245" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610552161040" />
-    <state x="573" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610651844407">
+    <state x="573" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1610841768093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="573" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610651844407" />
+    <state x="573" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610841768093" />
     <state x="263" y="18" key="com.intellij.database.dbimport.ImportDialog" timestamp="1610649529959">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="18" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610649529959" />
-    <state x="274" y="47" width="958" height="512" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1610651981524">
+    <state x="479" y="184" width="408" height="344" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1610840520707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="47" width="736" height="621" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610651981524" />
+    <state x="479" y="184" width="408" height="344" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610840520707" />
+    <state x="265" y="74" width="958" height="512" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1610844392593">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="265" y="74" width="736" height="621" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610844392593" />
     <state x="244" y="69" width="958" height="512" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610564981873" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603738597561">
       <screen x="0" y="0" width="1366" height="728" />
@@ -619,16 +491,5 @@
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603739716508" />
     <state x="1625" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1606079605763" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Controller/includes/signup.php</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

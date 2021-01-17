@@ -1,14 +1,18 @@
 <?php
 
-include_once '../includes/init.php';
+include_once 'init.php';
 
-    $status = $user->login($_POST, $db1);
+if (!empty($user)) {
+    if (isset($db1)) {
+        $status = $user->login($_POST, $db1);
+    }
+}
 
 if ($status === 'success') {
     echo json_encode([
         'success' => 'success',
         'message' => '<p class="alert alert-success">Si uspesne prihlaseny!</p>',
-        'url' => 'home.php',
+        'url' => '../Views/home.php',
     ]);
 } else if ($status === 'missing_fields') {
     echo json_encode([

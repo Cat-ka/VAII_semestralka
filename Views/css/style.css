@@ -36,3 +36,12 @@
     font-size: 14px;
 }
 
+p.alert {
+    display: flex;
+    text-align: center;
+}
+
+
+.modal-footer {
+    text-align: center;
+}
