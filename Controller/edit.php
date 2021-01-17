@@ -11,7 +11,7 @@ if(isset($_POST['submit'])) {
     $updated_id = mysqli_real_escape_string($conn, $_POST['update_id']);
     $title = mysqli_real_escape_string($conn, $_POST['title']);
     $body = mysqli_real_escape_string($conn, $_POST['body']);
-    $author = mysqli_real_escape_string($conn, $_POST['author']);
+    $author = $_SESSION['logged_in']['name'];
 
     $query = "UPDATE posts SET 
                         title='$title',
@@ -50,12 +50,12 @@ mysqli_close($conn);
                 <input type="text" name="title" class="form-control" minlength="4" maxlength="50" pattern=".*\S+.*" required
                         value="<?php echo $post['title']; ?>">
             </div>
-            <div class="form-group">
-                <label>Autor</label>
-                <input type="text"janko name="author" class="form-control" minlength="4" maxlength="50" pattern=".*\S+.*" required
-                       value="<?php echo $post['author']; ?>"
-                       required>
-            </div>
+<!--            <div class="form-group">-->
+<!--                <label>Autor</label>-->
+<!--                <input type="text"janko name="author" class="form-control" minlength="4" maxlength="50" pattern=".*\S+.*" required-->
+<!--                       value="--><?php //echo $post['author']; ?><!--"-->
+<!--                       required>-->
+<!--            </div>-->
             <div class="form-group">
                 <label>Text</label>
                 <textarea name="body" class="form-control" minlength="4" maxlength="500" pattern=".*\S+.*" required><?php echo $post['body']; ?></textarea>

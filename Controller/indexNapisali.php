@@ -29,7 +29,8 @@ mysqli_close($conn);
         ?>
     </div>
     <?php endif ?>
-
+<?php  if (isset($_SESSION['logged_in'])) {
+    ?>
     <div class="container">
         <h2>Napísali o nás</h2>
         <a class="btn btn-secondary btn-lg" href="<?php echo ROOT_URL;?>add.php">Pridaj príspevok</a>
@@ -43,4 +44,14 @@ mysqli_close($conn);
             </div>
         <?php endforeach; ?>
     </div>
+<?php } else {
+    ?>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Je nám ľúto, nie ste prihlásený.</h1>
+            <p class="lead">Predtým, ako chcete vidieť alebo prispievať do komunikácie, musíte byť prihlásený.</p>
+        </div>
+    </div>
+<?php } ?>
+
 <?php include('../Views/footer.php'); ?>

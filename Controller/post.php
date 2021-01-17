@@ -1,13 +1,12 @@
 <?php
-if(!isset($_SESSION))
-{
+if (!isset($_SESSION)) {
     session_start();
 }
 
-require ('config/config.php');
-require ('config/db.php');
+require('config/config.php');
+require('config/db.php');
 
-if(isset($_POST['delete'])) {
+if (isset($_POST['delete'])) {
     $delete_id = mysqli_real_escape_string($conn, $_POST['delete_id']);
 
     $query = "DELETE FROM posts WHERE id = {$delete_id}";
@@ -16,17 +15,17 @@ if(isset($_POST['delete'])) {
     $_SESSION['msg_type'] = 'danger';
     header('location: post.php');
 
-    if(mysqli_query($conn, $query)) {
-        header('Location: ' .INDEX_URL. '');
+    if (mysqli_query($conn, $query)) {
+        header('Location: ' . INDEX_URL . '');
     } else {
-        echo 'ERROR: ' .mysqli_error($conn);
+        echo 'ERROR: ' . mysqli_error($conn);
     }
 }
 
 //get ID
 $id = mysqli_real_escape_string($conn, $_GET['id']);
 //vytvor query
-$query = 'SELECT * FROM posts WHERE id = ' .$id;
+$query = 'SELECT * FROM posts WHERE id = ' . $id;
 $result = mysqli_query($conn, $query);
 $post = mysqli_fetch_assoc($result);
 //var_dump($posts);
@@ -46,7 +45,7 @@ mysqli_close($conn);
     if (filter_has_var(INPUT_POST, 'data')) {
         $title = $_POST['data'];
         $title = filter_var($title, FILTER_SANITIZE_STRING);
-        echo $title.'<br>';
+        echo $title . '<br>';
 
         if (filter_var($title, FILTER_SANITIZE_STRING)) {
             echo 'Title is valid';
@@ -55,12 +54,25 @@ mysqli_close($conn);
         }
     }
     ?>
-    <form class="pull-right" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <input type="hidden" name="delete_id" value="<?php echo $post['id']; ?>">
-        <input type="submit" name="delete" value="Delete" class="btn btn-danger" style="font-weight:bold;">
-    </form>
-    <a href="<?php echo INDEX_URL; ?>" class="btn btn-default" style="font-weight:bold;">Späť</a>
-    <a href="<?php echo ROOT_URL; ?>edit.php?id=<?php echo $post['id']; ?>" class="btn btn-default" style="font-weight:bold;">Editovať</a>
+    <?php
+    if ($_SESSION['logged_in']['name'] === $post['author']) {
+        ?>
+        <form class="pull-right" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <input type="hidden" name="delete_id" value="<?php echo $post['id']; ?>">
+            <input type="submit" name="delete" value="Delete" class="btn btn-danger" style="font-weight:bold;">
+<!--            TODO dorobiť confirm otazku na vymazanie-->
+        </form>
+        <a href="<?php echo INDEX_URL; ?>" class="btn btn-default" style="font-weight:bold;">Späť</a>
+        <a href="<?php echo ROOT_URL; ?>edit.php?id=<?php echo $post['id']; ?>" class="btn btn-default"
+           style="font-weight:bold;">Editovať</a>
+        <?php
+    } else {
+        ?>
+        <!--        TODO dorobiť odpoved-->
+        <?php
+    }
+    ?>
+
 
 </div>
 </body>

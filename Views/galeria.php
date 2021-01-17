@@ -69,4 +69,4 @@
         </div>
     </div>
 </div>
-<?php include('Views/footer.php'); ?>
+<?php include('footer.php'); ?>

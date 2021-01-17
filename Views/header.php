@@ -5,6 +5,7 @@ if(!isset($_SESSION))
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,11 +24,6 @@ if(!isset($_SESSION))
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
             <a class="navbar-brand"><img src="../Views/obrazky/logo_ovalne_velke_hore.jpg" alt="Bodystyle Logo">
             </a>
         </div>
@@ -44,22 +40,26 @@ if(!isset($_SESSION))
             <ul class="nav navbar-nav navbar-right">
                 <?php
                 if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true): ?>
-                    <li><a href="#" data-toggle="modal" data-target="#change-password">Zmeň heslo</a></li>
-                    <li><a href="../Controller/includes/logout.php">Odhlásenie</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Vitaj <?= $_SESSION['logged_in']['name'] ?>
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" data-toggle="modal" data-target="#change-password">Zmeň heslo</a></li>
+                            <li><a href="../Controller/includes/logout.php">Odhlásenie</a></li>
+                        </ul>
+                    </li>
                 <?php else: ?>
                     <li ><a href='#' data-toggle='modal' data-target='#login'>Prihlásenie</a ></li >
                     <li ><a href='#' data-toggle='modal' data-target='#signup'>Registrácia</a ></li >
                 <?php endif; ?>
-                <!--                <li><a href="#" data-toggle="modal" data-target="#login">Prihlásenie</a></li>-->
-                <!--                <li><a href="#" data-toggle="modal" data-target="#signup">Registrácia</a></li>-->
             </ul>
-
         </div>
     </div>
 </nav>
 
 <!-- Login box -->
-<div class="modal fade my-modal" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<div class="modal fade my-modal" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -99,7 +99,7 @@ if(!isset($_SESSION))
 <!-- /Login box -->
 
 <!-- Signup box -->
-<div class="modal fade my-modal" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<div class="modal fade my-modal" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -112,23 +112,23 @@ if(!isset($_SESSION))
             <div class="modal-body">
                 <form class="form" method="post" action="../Controller/includes/signup.php">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Celé meno</label>
-                        <input type="text" class="form-control" name="name" id="exampleInputEmail1"
+                        <label for="exampleInputEmai1">Celé meno</label>
+                        <input type="text" class="form-control" name="name" id="exampleInputName"
                                placeholder="Zadajte celé meno">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">E-mail</label>
-                        <input type="email" class="form-control" name="email" id="exampleInputEmail1"
+                        <input type="email" class="form-control" name="email" id="exampleInputEmail2"
                                placeholder="Zadajte e-mail">
                     </div>
                     <div class="form-group">
                         <label fo r="exampleInputPassword1">Heslo</label>
-                        <input type="password" class="form-control" name="password" id="exampleInputPassword1"
+                        <input type="password" class="form-control" name="password" id="exampleInputPassword2"
                                placeholder="Zadajte heslo">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Zopakujte heslo</label>
-                        <input type="password" class="form-control" name="cpassword" id="exampleInputPassword2"
+                        <input type="password" class="form-control" name="cpassword" id="exampleInputPassword3"
                                placeholder="Zopakujte heslo">
                     </div>
 
@@ -148,7 +148,7 @@ if(!isset($_SESSION))
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel">Pošli mi nové heslo</h4>
+                <h4 class="modal-title" id="myModalLabel">Pošli mi nové heslo</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -157,7 +157,7 @@ if(!isset($_SESSION))
                 <form>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Zadajte e-mail pre odoslanie nového hesla</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
+                        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="E-mail">
                     </div>
                     <button type="submit" class="btn btn-default">Odoslať nové heslo</button>
                 </form>
@@ -169,6 +169,42 @@ if(!isset($_SESSION))
 </div>
 <!-- /Reset password box -->
 
+<!-- Change password box -->
+<div class="modal fade my-modal" id="change-password" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">
+                        &times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Zmeň si svoje heslo</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form" method="post" action="../Controller/includes/change-passw.php">
+                    <div class="form-group">
+                        <label fo r="exampleInputPassword1">Staré heslo</label>
+                        <input type="password" class="form-control" name="password" id="exampleInputPassword4"
+                               placeholder="Zadajte Vaše staré heslo">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Nové heslo</label>
+                        <input type="password" class="form-control" name="npassword" id="exampleInputPassword5"
+                               placeholder="Zadajte vaše nové heslo">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Zopakujte nové heslo</label>
+                        <input type="password" class="form-control" name="cpassword" id="exampleInputPassword6"
+                               placeholder="Zopakujte heslo">
+                    </div>
+                    <button type="submit" class="btn btn-default">Zmeniť heslo</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Change password box -->
 
 <script src="../public/js/jquery.min.js"></script>
 <script src="../public/js/bootstrap.min.js"></script>

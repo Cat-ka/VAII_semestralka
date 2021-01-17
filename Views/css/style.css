@@ -41,7 +41,11 @@ p.alert {
     text-align: center;
 }
 
-
 .modal-footer {
     text-align: center;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: black;
+    background-color: transparent;
 }
