@@ -13,49 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="dokončený FK a pridavanie príspevkov len pre prihlasenych">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98dbcce3-3ed4-4708-941f-fd1f1e23bad0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98dbcce3-3ed4-4708-941f-fd1f1e23bad0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArchitectsDaughter-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/addPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/editPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/inc/navbar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/includes/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/includes/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/includes/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/includes/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/functions/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/indexNapisali.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/postView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/functions/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/js/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/productView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/uvod.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/uvod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Views/js/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="7fa5ff1c-2b26-4345-beb7-b92fff79083e" name="Default Changelist" comment="hotovo...." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +120,7 @@
       <workItem from="1610883974340" duration="26168000" />
       <workItem from="1610965900543" duration="42767000" />
       <workItem from="1611046303925" duration="4007000" />
-      <workItem from="1611056859259" duration="11017000" />
+      <workItem from="1611056859259" duration="11649000" />
     </task>
     <task id="LOCAL-00001" summary="1. commit">
       <created>1602687160600</created>
@@ -318,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610913789024</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="hotovo....">
+      <created>1611068646846</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1611068646846</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +327,8 @@
     <MESSAGE value="login, registrácia - controller" />
     <MESSAGE value="login, registrácia - funkčné" />
     <MESSAGE value="dokončený FK a pridavanie príspevkov len pre prihlasenych" />
-    <option name="LAST_COMMIT_MESSAGE" value="dokončený FK a pridavanie príspevkov len pre prihlasenych" />
+    <MESSAGE value="hotovo...." />
+    <option name="LAST_COMMIT_MESSAGE" value="hotovo...." />
   </component>
   <component name="WindowStateProjectService">
     <state x="390" y="6" key="#PHP" timestamp="1606047660743">
@@ -486,12 +452,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="516" y="64" width="605" height="576" key="VCS.ChangeListViewerDialog/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1602687690844" />
-    <state x="277" y="121" key="Vcs.Push.Dialog.v2" timestamp="1610913802278">
+    <state x="297" y="121" key="Vcs.Push.Dialog.v2" timestamp="1611068697853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1610913802278" />
     <state x="1574" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602863076575" />
-    <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1610494280488" />
+    <state x="297" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1611068697853" />
     <state x="1626" y="164" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1602881439525" />
     <state x="277" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603811998721" />
     <state x="934" y="245" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1610649501331">
