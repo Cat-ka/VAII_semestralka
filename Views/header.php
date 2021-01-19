@@ -6,6 +6,7 @@ if(!isset($_SESSION))
 ?>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +18,7 @@ if(!isset($_SESSION))
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="js/script.js">
     <link rel="stylesheet" type="text/css" href="../Views/css/home.css">
     <link rel="stylesheet" type="text/css" href="../Views/css/style.css">
 </head>
@@ -30,10 +32,10 @@ if(!isset($_SESSION))
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="../Views/home.php">Domov</a></li>
-                <li><a href="#">Ponuka služieb</a></li>
-                <li><a href="#">Cenník</a></li>
+                <li><a href="../Views/productView.php">Ponuka služieb</a></li>
+                <li><a href="../Controller/priceList.php">Cenník</a></li>
                 <li><a href="../Views/galeria.php">Fotogaléria</a></li>
-                <li><a href="../Controller/indexNapisali.php">Napisali o nás</a></li>
+                <li><a href="../Controller/postView.php">Napisali o nás</a></li>
             </ul>
             <div class="nav navbar-nav navbar-right"><a href="https://www.facebook.com/bodystyle.centra/"></a>
             </div>
@@ -46,7 +48,7 @@ if(!isset($_SESSION))
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#" data-toggle="modal" data-target="#change-password">Zmeň heslo</a></li>
-                            <li><a href="../Controller/includes/logout.php">Odhlásenie</a></li>
+                            <li><a href="../Controller/functions/logout.php">Odhlásenie</a></li>
                         </ul>
                     </li>
                 <?php else: ?>
@@ -68,7 +70,7 @@ if(!isset($_SESSION))
                 <h4 class="modal-title" id="myModalLabel">Prihlásenie</h4>
             </div>
             <div class="modal-body">
-                <form class="form" method="post" action="../Controller/includes/auth.php">
+                <form class="form" method="post" action="../Controller/includes/login.php">
                     <div class="form-group">
                         <label for="exampleInputEmail1">E-mail</label>
                         <input type="email" class="form-control" name="email" id="exampleInputEmail1"
@@ -112,7 +114,7 @@ if(!isset($_SESSION))
             <div class="modal-body">
                 <form class="form" method="post" action="../Controller/includes/signup.php">
                     <div class="form-group">
-                        <label for="exampleInputEmai1">Celé meno</label>
+                        <label for="exampleInputEmail1">Celé meno</label>
                         <input type="text" class="form-control" name="name" id="exampleInputName"
                                placeholder="Zadajte celé meno">
                     </div>
@@ -122,7 +124,7 @@ if(!isset($_SESSION))
                                placeholder="Zadajte e-mail">
                     </div>
                     <div class="form-group">
-                        <label fo r="exampleInputPassword1">Heslo</label>
+                        <label for="exampleInputPassword1">Heslo</label>
                         <input type="password" class="form-control" name="password" id="exampleInputPassword2"
                                placeholder="Zadajte heslo">
                     </div>
@@ -148,7 +150,7 @@ if(!isset($_SESSION))
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">Pošli mi nové heslo</h4>
+                <h4 class="modal-title" id="myModalLabel1">Pošli mi nové heslo</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -177,12 +179,12 @@ if(!isset($_SESSION))
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">
                         &times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Zmeň si svoje heslo</h4>
+                <h4 class="modal-title" id="myModalLabel2">Zmeň si svoje heslo</h4>
             </div>
             <div class="modal-body">
                 <form class="form" method="post" action="../Controller/includes/change-passw.php">
                     <div class="form-group">
-                        <label fo r="exampleInputPassword1">Staré heslo</label>
+                        <label for="exampleInputPassword1">Staré heslo</label>
                         <input type="password" class="form-control" name="password" id="exampleInputPassword4"
                                placeholder="Zadajte Vaše staré heslo">
                     </div>
@@ -206,6 +208,6 @@ if(!isset($_SESSION))
 </div>
 <!-- Change password box -->
 
-<script src="../public/js/jquery.min.js"></script>
-<script src="../public/js/bootstrap.min.js"></script>
-<script src="../public/js/script.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>

@@ -4,8 +4,8 @@ if(!isset($_SESSION))
     session_start();
 }
 
-require ('config/config.php');
-require ('config/db.php');
+require('config/config.php');
+require('config/db.php');
 
 //vytvor query
 $query = 'SELECT * FROM posts ORDER BY created_at DESC';
@@ -33,7 +33,9 @@ mysqli_close($conn);
     ?>
     <div class="container">
         <h2>Napísali o nás</h2>
-        <a class="btn btn-secondary btn-lg" href="<?php echo ROOT_URL;?>add.php">Pridaj príspevok</a>
+        <div class="row">
+        <a class="btn btn-light btn-lg" href="<?php echo ROOT_URL;?>addPost.php">Pridaj príspevok</a>
+        </div>
         <?php foreach ($posts as $post) : ?>
             <div class="well">
                 <h3><?php echo $post['title']; ?></h3>

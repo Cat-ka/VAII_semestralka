@@ -16,13 +16,14 @@ if (isset($_POST['submit']) && ($_SESSION['logged_in'])) {
 
     $_SESSION['message'] = 'Príspevok bol pridaný.';
     $_SESSION['msg_type'] = 'success';
-    header('location: post.php');
+    header('location: postView.php');
 
     if (mysqli_query($conn, $query)) {
         header('Location: ' . INDEX_URL . '');
     } else {
         echo 'ERROR: ' . mysqli_error($conn);
     }
+
 }
 
 ?>

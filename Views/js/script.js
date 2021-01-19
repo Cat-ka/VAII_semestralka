@@ -16,6 +16,7 @@ function submitForm($form) {
     $footer = $form.parent('.modal-body').next('.modal-footer');
 
     $footer.html('<img src="ajax-loader.gif">');
+    $footer.html("O chíľu budete presmerovaný na hlavnú stránku.");
 
     $.ajax({
         url: $form.attr('action'),
@@ -28,7 +29,7 @@ function submitForm($form) {
                     setTimeout(function () {
                         $footer.html(response.message);
                         window.location = response.url;
-                    }, 3000);
+                    }, 1000);
                 }
                 $footer.html(response.message);
             } else if (response.error) {

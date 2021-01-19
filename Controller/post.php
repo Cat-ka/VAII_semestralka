@@ -13,7 +13,7 @@ if (isset($_POST['delete'])) {
 
     $_SESSION['message'] = 'Príspevok bol vymazaný.';
     $_SESSION['msg_type'] = 'danger';
-    header('location: post.php');
+    header('location: postView.php');
 
     if (mysqli_query($conn, $query)) {
         header('Location: ' . INDEX_URL . '');
@@ -60,10 +60,9 @@ mysqli_close($conn);
         <form class="pull-right" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <input type="hidden" name="delete_id" value="<?php echo $post['id']; ?>">
             <input type="submit" name="delete" value="Delete" class="btn btn-danger" style="font-weight:bold;">
-<!--            TODO dorobiť confirm otazku na vymazanie-->
         </form>
         <a href="<?php echo INDEX_URL; ?>" class="btn btn-default" style="font-weight:bold;">Späť</a>
-        <a href="<?php echo ROOT_URL; ?>edit.php?id=<?php echo $post['id']; ?>" class="btn btn-default"
+        <a href="<?php echo ROOT_URL; ?>editPost.php?id=<?php echo $post['id']; ?>" class="btn btn-default"
            style="font-weight:bold;">Editovať</a>
         <?php
     } else {

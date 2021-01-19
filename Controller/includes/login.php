@@ -1,6 +1,6 @@
 <?php
 
-include_once 'init.php';
+include_once '../includes/init.php';
 
 if (!empty($user)) {
     if (isset($db1)) {
@@ -25,4 +25,6 @@ if ($status === 'success') {
         'message' => '<p class="alert alert-danger">Nespravny email alebo heslo!</p>'
     ]);
 }
+
+
 

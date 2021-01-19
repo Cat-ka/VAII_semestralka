@@ -49,3 +49,84 @@ p.alert {
     color: black;
     background-color: transparent;
 }
+.btn-secondary  {
+    color: #fff;
+    background-color: #d4233f;
+    border-color: #d4233f;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #c9245d;
+    background-image: none;
+    border-color: #560b22;
+}
+
+.btn-secondary:active {
+    color: #fff;
+    background-color: #c9245d;
+    background-image: none;
+    border-color: #560b22;
+}
+
+a.btn.btn-light.btn-lg {
+    margin: 20px;
+    color: black;
+    background-color: #8d5b721f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {text-align: left;}
+
+div#showProduct {
+    display: table;
+}
+
+td.price {
+    text-align: right;
+    width: 110px;
+}
+
+#content{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+}
+
+form{
+    width: 50%;
+    margin: 20px auto;
+}
+
+form div {
+    margin-top: 5px;
+}
+
+#img_div {
+    width:80%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 1px solid #cbcbcb;
+}
+
+#img_div:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+img{
+    float: left;
+    margin: 5px;
+    width: 300px;
+    height: 140px;
+}
